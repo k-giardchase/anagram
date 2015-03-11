@@ -2,21 +2,6 @@
     class Anagram
     {
 
-
-        // $test_anagram_one_character = new Anagram;
-        // $input_word = 'i';
-        // $possible_match = 'i';
-        //
-        // //Act
-        // $result = $test_anagram_one_character->generateAnagram($input_word, $possible_match);
-        //
-        // //Assert
-        // $expected = array(true);
-        // $this->assertEquals($expected, $result);
-        // }
-
-
-
         function generateAnagram($input_word, $possible_matches)
         {
             $result = array();
