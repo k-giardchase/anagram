@@ -6,9 +6,15 @@
 </head>
 <body>
     <div class="container">
-        <h1>Your Anagram here:</h1>
-        {% for value in result %}
-        <h4>{{ value }}</h4>
+      <h1>Your Anagrams:</h1>
+     {% if results is not empty %}
+         <p>Here are all of your anagrams:</p>
+         <ul>
+             {% for result in results %}
+                 <p>{{ result }}</p>
+             {% endfor %}
+         </ul>
+     {% endif %}
 
 
     </div>
