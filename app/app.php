@@ -18,7 +18,6 @@
 
          return $app['twig']->render('view_result.twig', array( 'result' => $final_result));
     });
-
-
+    
     return $app;
 ?>
